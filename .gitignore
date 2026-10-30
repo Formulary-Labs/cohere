@@ -1,0 +1,6 @@
+# Build / local
+bin/
+logs/
+out/
+*.exe
+.DS_Store

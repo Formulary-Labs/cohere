@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-30-test-run",
+  "program": "test-program",
+  "framework": "test-framework",
+  "product_name": "Test Product",
+  "product_version": "1.0.0",
+  "catalog_path": "testdata/catalog.yaml",
+  "product_source": "docs/",
+  "status": "complete",
+  "batch_size": 15,
+  "controls": {
+    "ac-1": {
+      "id": "ac-1",
+      "title": "Policy and Procedures",
+      "status": "complete",
+      "response": {
+        "citation": "Security Policy document, Section 4.2",
+        "citation_quality": "direct_assertion",
+        "narrative": "The security policy is documented and disseminated per section 4.2.",
+        "determination": "satisfied"
+      }
+    },
+    "ac-2": {
+      "id": "ac-2",
+      "title": "Account Management",
+      "status": "complete",
+      "response": {
+        "citation": "Account Management Runbook",
+        "citation_quality": "topical_reference",
+        "narrative": "Account management is partially implemented; provisioning is manual.",
+        "determination": "partially_satisfied",
+        "gap": "Deprovisioning is not automated."
+      }
+    },
+    "ac-3": {
+      "id": "ac-3",
+      "title": "Access Enforcement",
+      "status": "flagged",
+      "response": {
+        "citation": "RBAC design document",
+        "citation_quality": "architectural_description",
+        "narrative": "The architecture describes role-based access control.",
+        "determination": "satisfied"
+      }
+    }
+  }
+}
