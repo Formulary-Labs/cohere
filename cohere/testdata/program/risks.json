@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "program": "test-program",
+  "last_updated": "2026-10-30T12:00:00Z",
+  "risks": [
+    {
+      "id": "RISK-001",
+      "title": "Account management gaps",
+      "description": "Partial implementation of account management controls.",
+      "source": "coverage_gap",
+      "likelihood": 2,
+      "impact": 2,
+      "severity": "medium",
+      "status": "open",
+      "owner": "it-ops",
+      "control_id": "ac-2",
+      "evidence_ref": "evidence/accounts.md",
+      "created": "2026-10-30T12:00:00Z",
+      "updated": "2026-10-30T12:00:00Z"
+    },
+    {
+      "id": "RISK-002",
+      "title": "Accepted legacy exception",
+      "description": "Compensating control in place.",
+      "source": "explicit",
+      "likelihood": 1,
+      "impact": 2,
+      "severity": "low",
+      "status": "accepted",
+      "owner": "security-team",
+      "control_id": "ac-3",
+      "accept_rationale": "Compensating monitoring control covers the residual risk.",
+      "created": "2026-10-30T12:00:00Z",
+      "updated": "2026-10-30T12:00:00Z"
+    }
+  ]
+}

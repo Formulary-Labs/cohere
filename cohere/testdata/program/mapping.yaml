@@ -1,0 +1,25 @@
+title: Test Framework to Peer Framework Mapping
+metadata:
+  id: map-test-001
+  type: MappingDocument
+  gemara-version: "1.0"
+  description: Test fixture mapping test-framework controls to peer-framework controls.
+source-reference:
+  entry-type: Control
+  reference-id: test-framework
+target-reference:
+  entry-type: Control
+  reference-id: peer-framework
+mappings:
+  - id: map-001
+    source: ac-1
+    relationship: equivalent
+    targets:
+      - entry-id: peer-1
+        strength: 9
+  - id: map-002
+    source: ac-2
+    relationship: implements
+    targets:
+      - entry-id: peer-2
+        strength: 7

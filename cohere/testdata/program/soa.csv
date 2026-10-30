@@ -1,0 +1,4 @@
+Control ID,Title,Family,In Scope,Determination,Implementation Status,Implementation Summary,Owner,Inherited,Inherited From,Evidence Source,Exclusion Justification
+ac-1,Policy and Procedures,Access Control,yes,satisfied,implemented,Policy documented and disseminated.,security-team,,,evidence/policy.md,
+ac-2,Account Management,Access Control,yes,partially_satisfied,partially_implemented,Account management mostly implemented.,it-ops,,,evidence/accounts.md,
+ac-3,Access Enforcement,Access Control,yes,satisfied,implemented,Access enforced via RBAC.,security-team,,,https://confluence.example.com/display/rbac,
